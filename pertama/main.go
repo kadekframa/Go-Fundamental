@@ -11,7 +11,7 @@ func main() {
 	penjumlahan := calculation.Add(10, 24)
 	perkalian := calculation.Multiply(4, 6)
 	pengurangan := calculation.Pengurangan(20, 2)
-	pembagian := calculation.Pembagian(96, 12)
+	pembagian := calculation.Pembagian(24, 4)
 
 	fmt.Println("Hasil penjumlahan : ", penjumlahan)
 	fmt.Println("Hasil perkalian : ", perkalian)
