@@ -8,7 +8,13 @@ import (
 func main() {
 	fmt.Println("Hello World, Belajar Golang!")
 
-	result := calculation.Add(10, 24)
+	penjumlahan := calculation.Add(10, 24)
+	perkalian := calculation.Multiply(4, 6)
+	pengurangan := calculation.Pengurangan(20, 2)
+	pembagian := calculation.Pembagian(96, 12)
 
-	fmt.Println((result))
+	fmt.Println("Hasil penjumlahan : ", penjumlahan)
+	fmt.Println("Hasil perkalian : ", perkalian)
+	fmt.Println("Hasil pengurangan : ", pengurangan)
+	fmt.Println("Hasil pembagian : ", pembagian)
 }
