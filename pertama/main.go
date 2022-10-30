@@ -1,10 +1,14 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"pertama/calculation"
+)
 
 func main() {
-	fmt.Println("Hello World!")
+	fmt.Println("Hello World, Belajar Golang!")
 
-	sentece := TestAja()
-	fmt.Println(sentece)
+	result := calculation.Add(10, 24)
+
+	fmt.Println((result))
 }
